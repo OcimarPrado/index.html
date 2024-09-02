@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <!-- Configurações básicas da página -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portfólio</title>
+    <!-- Link para o arquivo de estilo CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Cabeçalho com título e navegação do site -->
+    <header>
+        <h1>Meu Portfólio</h1>
+        <nav>
+            <ul>
+                <!-- Links de navegação para diferentes seções da página -->
+                <li><a href="#sobre-mim">Sobre Mim</a></li>
+                <li><a href="#formacao">Formação</a></li>
+                <li><a href="#portfolio">Portfólio</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Seção "Sobre Mim" -->
+    <section id="sobre-mim">
+        <h2>Sobre Mim</h2>
+        <p>Olá! Me chamo Ocimar Prado, um profissional em transição para a área de desenvolvimento de software, após mais de 20 anos atuando na indústria de produção metalúrgica. <br><br>
+             Sempre fui fascinado por matemática, lógica e tecnologia, e agora estou aplicando esse interesse no mundo da programação, onde estou constantemente adquirindo e aprimorando meus conhecimentos.<br><br>
+
+
+            Estou aprendendo linguagens como Python, Kotlin e JavaScript, e me aprofundando em frameworks como Flask e React Native. Em busca de novas oportunidades para crescer profissionalmente, e acredito que, com dedicação e perseverança, posso contribuir para criar soluções que façam a diferença.<br><br>
+            
+            Sou uma pessoa que valoriza o aprendizado contínuo e estou comprometido em me desenvolver em uma nova carreira, sempre disposto a enfrentar novos desafios e contribuir de forma significativa na criação e resolução de problemas.</p>
+    </section>
+
+    <!-- Seção "Formação" -->
+    <section id="formacao">
+        <h2>Formação</h2>
+        <p>Estou atualmente cursando Análise e Desenvolvimento de Sistemas e tenho interesse em Desenvolvimento Web e Mobile.</p>
+    </section>
+
+    <!-- Seção "Portfólio" com links para trabalhos -->
+    <section id="portfolio">
+        <h2>Portfólio</h2>
+        <p>Aqui estão alguns dos meus trabalhos:</p>
+        <ul>
+            <li><a href="https://github.com/OcimarPrado">Meu GitHub</a></li>
+            <li><a href="https://www.linkedin.com/in/onprado/">Meu LinkedIn</a></li>
+        </ul>
+    </section>
+
+    <!-- Seção "Contato" com formulário simples -->
+    <section id="contato">
+        <h2>Contato</h2>
+        <!-- Formulário com id para referenciar no JavaScript -->
+        <form id="contact-form">
+            <!-- Campo de entrada para o nome -->
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+
+            <!-- Campo de entrada para o e-mail -->
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required>
+
+            <!-- Campo de entrada para a mensagem -->
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" required></textarea>
+
+            <!-- Botão de envio do formulário -->
+            <button type="submit">Enviar</button>
+
+            <!-- Espaço para exibir mensagens de feedback -->
+            <p id="form-message"></p>
+        </form>
+    </section>
+
+    <!-- Rodapé da página -->
+    <footer>
+        <p>&copy; 2024 Meu Portfólio</p>
+    </footer>
+
+    <!-- Link para o arquivo JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
